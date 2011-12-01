@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC97E064148748D200F62ACE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC97E063148748D200F62ACE /* Cocoa.framework */; };
+		DC97E06E148748D200F62ACE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC97E06C148748D200F62ACE /* InfoPlist.strings */; };
+		DC97E071148748D200F62ACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC97E070148748D200F62ACE /* main.m */; };
+		DC97E074148748D200F62ACE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DC97E072148748D200F62ACE /* Credits.rtf */; };
+		DC97E077148748D200F62ACE /* DockDecodeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC97E076148748D200F62ACE /* DockDecodeAppDelegate.m */; };
+		DC97E07A148748D200F62ACE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC97E078148748D200F62ACE /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC97E05F148748D200F62ACE /* DockDecode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DockDecode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC97E063148748D200F62ACE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DC97E066148748D200F62ACE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DC97E067148748D200F62ACE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DC97E068148748D200F62ACE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC97E06B148748D200F62ACE /* DockDecode-Info.plist */ = {isa = PBXFileReference; path = "DockDecode-Info.plist"; sourceTree = "<group>"; };
+		DC97E06D148748D200F62ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC97E06F148748D200F62ACE /* DockDecode-Prefix.pch */ = {isa = PBXFileReference; path = "DockDecode-Prefix.pch"; sourceTree = "<group>"; };
+		DC97E070148748D200F62ACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC97E073148748D200F62ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DC97E075148748D200F62ACE /* DockDecodeAppDelegate.h */ = {isa = PBXFileReference; path = DockDecodeAppDelegate.h; sourceTree = "<group>"; };
+		DC97E076148748D200F62ACE /* DockDecodeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DockDecodeAppDelegate.m; sourceTree = "<group>"; };
+		DC97E079148748D200F62ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC97E05C148748D200F62ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC97E064148748D200F62ACE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC97E054148748D100F62ACE = {
+			isa = PBXGroup;
+			children = (
+				DC97E069148748D200F62ACE /* DockDecode */,
+				DC97E062148748D200F62ACE /* Frameworks */,
+				DC97E060148748D200F62ACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC97E060148748D200F62ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC97E05F148748D200F62ACE /* DockDecode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC97E062148748D200F62ACE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC97E063148748D200F62ACE /* Cocoa.framework */,
+				DC97E065148748D200F62ACE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC97E065148748D200F62ACE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC97E066148748D200F62ACE /* AppKit.framework */,
+				DC97E067148748D200F62ACE /* CoreData.framework */,
+				DC97E068148748D200F62ACE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DC97E069148748D200F62ACE /* DockDecode */ = {
+			isa = PBXGroup;
+			children = (
+				DC97E075148748D200F62ACE /* DockDecodeAppDelegate.h */,
+				DC97E076148748D200F62ACE /* DockDecodeAppDelegate.m */,
+				DC97E078148748D200F62ACE /* MainMenu.xib */,
+				DC97E06A148748D200F62ACE /* Supporting Files */,
+			);
+			path = DockDecode;
+			sourceTree = "<group>";
+		};
+		DC97E06A148748D200F62ACE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC97E06B148748D200F62ACE /* DockDecode-Info.plist */,
+				DC97E06C148748D200F62ACE /* InfoPlist.strings */,
+				DC97E06F148748D200F62ACE /* DockDecode-Prefix.pch */,
+				DC97E070148748D200F62ACE /* main.m */,
+				DC97E072148748D200F62ACE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC97E05E148748D200F62ACE /* DockDecode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC97E07D148748D200F62ACE /* Build configuration list for PBXNativeTarget "DockDecode" */;
+			buildPhases = (
+				DC97E05B148748D200F62ACE /* Sources */,
+				DC97E05C148748D200F62ACE /* Frameworks */,
+				DC97E05D148748D200F62ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DockDecode;
+			productName = DockDecode;
+			productReference = DC97E05F148748D200F62ACE /* DockDecode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC97E056148748D100F62ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Heinekev Development";
+			};
+			buildConfigurationList = DC97E059148748D100F62ACE /* Build configuration list for PBXProject "DockDecode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC97E054148748D100F62ACE;
+			productRefGroup = DC97E060148748D200F62ACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC97E05E148748D200F62ACE /* DockDecode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC97E05D148748D200F62ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC97E06E148748D200F62ACE /* InfoPlist.strings in Resources */,
+				DC97E074148748D200F62ACE /* Credits.rtf in Resources */,
+				DC97E07A148748D200F62ACE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC97E05B148748D200F62ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC97E071148748D200F62ACE /* main.m in Sources */,
+				DC97E077148748D200F62ACE /* DockDecodeAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC97E06C148748D200F62ACE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC97E06D148748D200F62ACE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC97E072148748D200F62ACE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC97E073148748D200F62ACE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DC97E078148748D200F62ACE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC97E079148748D200F62ACE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC97E07B148748D200F62ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DC97E07C148748D200F62ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DC97E07E148748D200F62ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DockDecode/DockDecode-Prefix.pch";
+				INFOPLIST_FILE = "DockDecode/DockDecode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC97E07F148748D200F62ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DockDecode/DockDecode-Prefix.pch";
+				INFOPLIST_FILE = "DockDecode/DockDecode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC97E059148748D100F62ACE /* Build configuration list for PBXProject "DockDecode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC97E07B148748D200F62ACE /* Debug */,
+				DC97E07C148748D200F62ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC97E07D148748D200F62ACE /* Build configuration list for PBXNativeTarget "DockDecode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC97E07E148748D200F62ACE /* Debug */,
+				DC97E07F148748D200F62ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC97E056148748D100F62ACE /* Project object */;
+}

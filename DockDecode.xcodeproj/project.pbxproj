@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC9717501487774900C6D97A /* dockdrop.icns in Resources */ = {isa = PBXBuildFile; fileRef = DC97174F1487774900C6D97A /* dockdrop.icns */; };
 		DC97E064148748D200F62ACE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC97E063148748D200F62ACE /* Cocoa.framework */; };
 		DC97E06E148748D200F62ACE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC97E06C148748D200F62ACE /* InfoPlist.strings */; };
 		DC97E071148748D200F62ACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC97E070148748D200F62ACE /* main.m */; };
@@ -16,17 +17,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC97174F1487774900C6D97A /* dockdrop.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = dockdrop.icns; sourceTree = "<group>"; };
 		DC97E05F148748D200F62ACE /* DockDecode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DockDecode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC97E063148748D200F62ACE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DC97E066148748D200F62ACE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		DC97E067148748D200F62ACE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DC97E068148748D200F62ACE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DC97E06B148748D200F62ACE /* DockDecode-Info.plist */ = {isa = PBXFileReference; path = "DockDecode-Info.plist"; sourceTree = "<group>"; };
+		DC97E06B148748D200F62ACE /* DockDecode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DockDecode-Info.plist"; sourceTree = "<group>"; };
 		DC97E06D148748D200F62ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DC97E06F148748D200F62ACE /* DockDecode-Prefix.pch */ = {isa = PBXFileReference; path = "DockDecode-Prefix.pch"; sourceTree = "<group>"; };
+		DC97E06F148748D200F62ACE /* DockDecode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DockDecode-Prefix.pch"; sourceTree = "<group>"; };
 		DC97E070148748D200F62ACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DC97E073148748D200F62ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		DC97E075148748D200F62ACE /* DockDecodeAppDelegate.h */ = {isa = PBXFileReference; path = DockDecodeAppDelegate.h; sourceTree = "<group>"; };
+		DC97E075148748D200F62ACE /* DockDecodeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DockDecodeAppDelegate.h; sourceTree = "<group>"; };
 		DC97E076148748D200F62ACE /* DockDecodeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DockDecodeAppDelegate.m; sourceTree = "<group>"; };
 		DC97E079148748D200F62ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,6 +48,7 @@
 		DC97E054148748D100F62ACE = {
 			isa = PBXGroup;
 			children = (
+				DC97174F1487774900C6D97A /* dockdrop.icns */,
 				DC97E069148748D200F62ACE /* DockDecode */,
 				DC97E062148748D200F62ACE /* Frameworks */,
 				DC97E060148748D200F62ACE /* Products */,
@@ -155,6 +158,7 @@
 				DC97E06E148748D200F62ACE /* InfoPlist.strings in Resources */,
 				DC97E074148748D200F62ACE /* Credits.rtf in Resources */,
 				DC97E07A148748D200F62ACE /* MainMenu.xib in Resources */,
+				DC9717501487774900C6D97A /* dockdrop.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +243,7 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DockDecode/DockDecode-Prefix.pch";
 				INFOPLIST_FILE = "DockDecode/DockDecode-Info.plist";
@@ -254,6 +259,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DockDecode/DockDecode-Prefix.pch";
 				INFOPLIST_FILE = "DockDecode/DockDecode-Info.plist";
@@ -281,6 +287,7 @@
 				DC97E07F148748D200F62ACE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
